@@ -1,3 +1,14 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-pe-<uniquifier> {
+  font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
