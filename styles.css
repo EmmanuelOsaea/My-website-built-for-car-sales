@@ -75,7 +75,7 @@ section {
 
 .car-item img {
     width: 200px;
-    height: 150px;
+    height: 200px;
     border-radius: 5px;
     object-fit: cover;
     display: block;
