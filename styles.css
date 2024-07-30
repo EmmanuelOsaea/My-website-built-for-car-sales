@@ -125,7 +125,10 @@ section#contact input {
 section#contact textarea {
     margin-bottom: 15px; /* Adjust if you want space below the textarea too */
 }
-  
+
+section#contact label[for="message"] {
+    margin-top: -10px; /* Adjust the value as needed to move the label closer */
+}
   footer {
     background-color: #673147;
     color: #fff;
