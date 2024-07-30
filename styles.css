@@ -110,6 +110,7 @@ section#contact {
             background-color: #f4f4f4;
             order: 1; /* Moves the contact section above the footer */
        margin-bottom: 70px;
+       gap: 15px;
 }
 
   
