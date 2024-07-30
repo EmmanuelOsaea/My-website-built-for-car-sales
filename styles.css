@@ -112,8 +112,19 @@ section#contact {
        margin-bottom: 70px;
        gap: 15px;
 }
+ //Just included to create spaces between input fields
+    section#contact form {
+    display: flex;
+    flex-direction: column;
+}
 
-  
+section#contact input {
+    margin-bottom: 15px; /* Adjust the value as needed for spacing */
+}
+
+section#contact textarea {
+    margin-bottom: 15px; /* Adjust if you want space below the textarea too */
+}
   
   footer {
     background-color: #673147;
