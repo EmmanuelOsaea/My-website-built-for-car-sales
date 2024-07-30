@@ -1,6 +1,14 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 400
 
+main {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+
+
 .playwrite-pe-<sweet> {
   font-family: "Playwrite PE", cursive;
   font-optical-sizing: auto;
