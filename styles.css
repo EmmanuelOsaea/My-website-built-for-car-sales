@@ -98,8 +98,11 @@ section {
    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-
-  
+section#contact {
+            padding: 20px;
+            background-color: #f4f4f4;
+            order: 1; /* Moves the contact section above the footer */
+        }
 
   
   
