@@ -128,7 +128,7 @@ section#contact textarea {
 
 section#contact label[for="message"] {
     position: relative;/*Included this to position it properly*/
-    top: -50px; /* Adjust the value as needed to move the label closer */
+    top: -55px; /* Adjust the value as needed to move the label closer */
 }
   footer {
     background-color: #673147;
