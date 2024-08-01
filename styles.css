@@ -150,24 +150,25 @@ section#contact label { /*Included to style the labels/*
     
 
     //Included this to style the section button
+
 section#contact button {
-  background-color: #5c636a ! important; /* Button background color */
-  border: none ! important; /* Remove border */
-  color: white ! important; /* Button text color */
-  padding: 10px 20px ! important; /* Button padding */
-  text-align: center ! important; /* Center text */
-  text-decoration: none ! important; /* Remove text underline */
-  display: inline-block  ! important; /* Inline-block display */
-  font-size: 16px ! important; /* Font size */
-  margin: 6px 4px  ! important; /* Margin */
-  cursor: pointer ! important; /* Cursor on hover */
-  border-radius: 4px  ! important; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7)  ! important; /* Button shadow */
-  transition: background-color 0.3s  ! important; /* Transition effect */
+  background-color: #5c636a !important; 
+  border: none !important; 
+  color: white !important; 
+  padding: 10px 20px !important; 
+  text-align: center !important; 
+  text-decoration: none !important; 
+  display: inline-block !important; 
+  font-size: 16px !important; 
+  margin: 8px 4px !important; 
+  cursor: pointer !important; 
+  border-radius: 4px !important; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7) !important; 
+  transition: background-color 0.3s !important; 
 }
 
 section#contact button:hover {
-  background-color: #464d53; /* Darker background on hover */
+  background-color: #464d53 !important; 
 }
     
     footer {
