@@ -151,19 +151,19 @@ section#contact label { /*Included to style the labels/*
 
     //Included this to style the section button
 section#contact button {
-  background-color: #5c636a; /* Button background color */
-  border: none; /* Remove border */
-  color: white; /* Button text color */
-  padding: 10px 20px; /* Button padding */
-  text-align: center; /* Center text */
-  text-decoration: none; /* Remove text underline */
-  display: inline-block; /* Inline-block display */
-  font-size: 16px; /* Font size */
-  margin: 6px 4px; /* Margin */
-  cursor: pointer; /* Cursor on hover */
-  border-radius: 4px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Button shadow */
-  transition: background-color 0.3s; /* Transition effect */
+  background-color: #5c636a ! important; /* Button background color */
+  border: none ! important; /* Remove border */
+  color: white ! important; /* Button text color */
+  padding: 10px 20px ! important; /* Button padding */
+  text-align: center ! important; /* Center text */
+  text-decoration: none ! important; /* Remove text underline */
+  display: inline-block  ! important; /* Inline-block display */
+  font-size: 16px ! important; /* Font size */
+  margin: 6px 4px  ! important; /* Margin */
+  cursor: pointer ! important; /* Cursor on hover */
+  border-radius: 4px  ! important; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7)  ! important; /* Button shadow */
+  transition: background-color 0.3s  ! important; /* Transition effect */
 }
 
 section#contact button:hover {
