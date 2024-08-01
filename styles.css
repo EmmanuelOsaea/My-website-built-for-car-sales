@@ -127,12 +127,12 @@ section#contact textarea {
 }
 
 section#contact label[for="message"] {
-    position: relative;/*Included this to position it properly*/
+    position: relative; /* Included this to position it properly */
     top: -50px ! important; /* Adjust the value as needed to move the label closer */
 }
 
 
-section#contact label { /*Included to style the labels/*
+section#contact label { /* Included to style the labels */
   font-size: 16px;
   color: #333;
   display: block;
