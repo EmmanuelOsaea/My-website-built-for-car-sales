@@ -130,7 +130,7 @@ section#contact label[for="message"] {
     position: relative;/*Included this to position it properly*/
     top: -50px ! important; /* Adjust the value as needed to move the label closer */
 }
-  
+  //Included this to style the section button
 section#contact button {
   background-color: #5c636a; /* Button background color */
   border: none; /* Remove border */
@@ -140,7 +140,7 @@ section#contact button {
   text-decoration: none; /* Remove text underline */
   display: inline-block; /* Inline-block display */
   font-size: 16px; /* Font size */
-  margin: 4px 2px; /* Margin */
+  margin: 6px 4px; /* Margin */
   cursor: pointer; /* Cursor on hover */
   border-radius: 4px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Button shadow */
