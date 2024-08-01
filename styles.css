@@ -126,10 +126,7 @@ section#contact textarea {
     margin-bottom: 15px; /* Adjust if you want space below the textarea too */
 }
 
-section#contact label[for="message"] {
-    position: relative; /* Included this to position it properly */
-     /* Adjust the value as needed to move the label closer */
-}
+
 
 
 section#contact label { /* Included to style the labels */
@@ -137,7 +134,7 @@ section#contact label { /* Included to style the labels */
   color: #333;
   display: block;
   font-weight: bold;
-  margin: 0; /* Ensure no extra margin is applied */
+  margin: 5px; /* Ensure no extra margin is applied */
   padding:  0; /* No margin */
 }
 
