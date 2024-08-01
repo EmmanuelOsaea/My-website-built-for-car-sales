@@ -138,7 +138,7 @@ section#contact label { /*Included to style the labels/*
   display: block;
   font-weight: bold;
   margin: 0; /* Ensure no extra margin is applied */
-  padding: 4px 0; /* Add slight padding for spacing */
+  padding:  0; /* No margin */
 }
 
 
