@@ -130,7 +130,21 @@ section#contact label[for="message"] {
     position: relative;/*Included this to position it properly*/
     top: -50px ! important; /* Adjust the value as needed to move the label closer */
 }
-  //Included this to style the section button
+  
+
+section#contact label { /*Included to make all labels bold*/
+  font-size: 16px; /* Font size */
+  color: #333; /* Text color */
+ display: block; /* Block display for proper spacing */
+  font-weight: bold; /* Bold text */
+}
+    
+    
+
+    
+    
+
+    //Included this to style the section button
 section#contact button {
   background-color: #5c636a; /* Button background color */
   border: none; /* Remove border */
