@@ -128,7 +128,7 @@ section#contact textarea {
 
 section#contact label[for="message"] {
     position: relative; /* Included this to position it properly */
-    top: -50px ! important; /* Adjust the value as needed to move the label closer */
+     /* Adjust the value as needed to move the label closer */
 }
 
 
