@@ -130,14 +130,19 @@ section#contact label[for="message"] {
     position: relative;/*Included this to position it properly*/
     top: -50px ! important; /* Adjust the value as needed to move the label closer */
 }
-  
 
-section#contact label { /*Included to make all labels bold*/
-  font-size: 16px; /* Font size */
-  color: #333; /* Text color */
- display: block; /* Block display for proper spacing */
-  font-weight: bold; /* Bold text */
+
+section#contact label { /*Included to style the labels/*
+  font-size: 16px;
+  color: #333;
+  display: block;
+  font-weight: bold;
+  margin: 0; /* Ensure no extra margin is applied */
+  padding: 4px 0; /* Add slight padding for spacing */
 }
+
+
+
     
     
 
