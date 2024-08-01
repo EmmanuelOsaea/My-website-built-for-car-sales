@@ -130,7 +130,28 @@ section#contact label[for="message"] {
     position: relative;/*Included this to position it properly*/
     top: -50px ! important; /* Adjust the value as needed to move the label closer */
 }
-  footer {
+  
+section#contact button {
+  background-color: #5c636a; /* Button background color */
+  border: none; /* Remove border */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove text underline */
+  display: inline-block; /* Inline-block display */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Button shadow */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+section#contact button:hover {
+  background-color: #464d53; /* Darker background on hover */
+}
+    
+    footer {
     background-color: #673147;
     color: #fff;
     padding: 10px 0;
