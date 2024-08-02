@@ -141,7 +141,7 @@ section#contact label { /* Included to style the labels */
  //Included this to style the section button
 
 section#contact button {
-  background-color: #5c636a !important;
+  background-color: #000 !important;
   border: none !important;
   color: white !important;
   padding: 10px 20px !important;
