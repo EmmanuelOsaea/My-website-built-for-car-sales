@@ -141,7 +141,7 @@ section#contact label { /* Included to style the labels */
  //Included this to style the section button
 
 /* Add this to your styles.css */
-section#contact button {
+#contact button {
     background-color: #4CAF50; /* Green background */
     border: none; /* Remove borders */
     color: white; /* White text */
