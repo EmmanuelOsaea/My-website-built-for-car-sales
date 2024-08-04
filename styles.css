@@ -1,3 +1,9 @@
+/* Resetting margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 main {
     background-color: #f0f0f0;
@@ -110,7 +116,7 @@ section#contact {
        gap: 15px;
 }
 
-    section#contact form {
+section#contact form {
     display: flex;
     flex-direction: column;
 }
@@ -156,14 +162,7 @@ button:hover {
     background-color: #45a049; /* Darker green */
 }
 
-
-
-
-
-
-
-
-    footer {
+footer {
     background-color: #673147;
     color: #fff;
     padding: 10px 0;
