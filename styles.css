@@ -86,8 +86,8 @@ section {
 }
 
 .car-item img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
     object-fit: cover;
     display: block;
