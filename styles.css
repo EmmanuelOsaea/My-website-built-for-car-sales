@@ -181,7 +181,7 @@ section#contact label { /* Included to style the labels */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Make the button inline-block */
     font-size: 16px; /* Increase font size */
-    margin: 8px 4px; /* Some margin */
+    margin: 20px auto; /* Some margin */
     cursor: pointer; /* Pointer/hand icon */
     border-radius: 12px; /* Rounded corners */
     width: 150px; 
