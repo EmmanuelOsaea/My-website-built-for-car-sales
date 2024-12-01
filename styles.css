@@ -134,6 +134,31 @@ section#contact textarea {
 }
 
 
+/* Style input and textarea fields */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 90%; /* Reduce width to 90% of the parent container */
+    max-width: 500px; /* Add a maximum width for large screens */
+    padding: 10px; /* Add internal spacing for better appearance */
+    margin: 10px auto; /* Center align and add spacing between fields */
+    display: block; /* Ensure they stay on separate lines */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Set a readable font size */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Add focus effect */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff; /* Highlight border when focused */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow effect */
+}
+
+    
 
 
 section#contact label { /* Included to style the labels */
