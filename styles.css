@@ -186,6 +186,7 @@ section#contact label { /* Included to style the labels */
     border-radius: 12px; /* Rounded corners */
     width: 150px; 
     max-width: 90%;
+    justify-content: center;
 }
 
 /* Add a hover effect */
