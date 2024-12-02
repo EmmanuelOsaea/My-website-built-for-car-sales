@@ -37,6 +37,7 @@ body {
     padding: 0;
     background-color: #FFFFFF;
     padding-bottom:  50px;
+    overflow-x: hidden;
 }
 
 header {
