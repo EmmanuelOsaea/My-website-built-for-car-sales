@@ -94,11 +94,12 @@ section {
     width: 90%;
     max-width: 200px;
     text-align: center;
-}
+ }
 
 .car-item img {
-    width: 170px;
-    height: 150px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
     border-radius: 5px;
     object-fit: cover;
     display: block;
