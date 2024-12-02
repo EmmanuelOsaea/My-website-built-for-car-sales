@@ -1,9 +1,11 @@
 /* Resetting margins and padding for all elements */
 * {
     box-sizing: border-box;
+     margin: 0; 
+     padding: 0;
 }
 
-section, div {
+ div {
 padding: 0;
  margin: 0;
 }
@@ -41,6 +43,14 @@ body {
     background-color: #FFFFFF;
     padding-bottom:  50px;
     overflow-x: hidden;
+    width: 100%; 
+}
+
+.container {
+    width: 100%;
+    max-width: 100%; /* Remove any restrictions */
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -73,8 +83,9 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
-    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 
