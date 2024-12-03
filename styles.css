@@ -10,12 +10,11 @@ html, body {
     padding: 0;
     height: 100%; /* Ensures the body fills the viewport */
     display: flex;
-    flex-direction: column;
-}
+    }
 
 .container {
-    flex: 1; /* Fills remaining space between header and footer */
-    display: flex; /* Optional: To center content */
+   min-height: 100%;
+   display: flex; /* Optional: To center content */
     flex-direction: column;
     justify-content: center; /* Adjust alignment as needed */
 }
@@ -56,9 +55,9 @@ nav ul li a {
 /* Main Section */
 
 main {
-    padding: 20px;
+    display: flex;
     background-color: #f0f0f0;
-}
+    }
 
 /* Car List */
 .car-list {
