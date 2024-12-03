@@ -5,7 +5,27 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the body fills the viewport */
+    display: flex;
+    flex-direction: column;
+}
 
+.container {
+    flex: 1; /* Fills remaining space between header and footer */
+    display: flex; /* Optional: To center content */
+    flex-direction: column;
+    justify-content: center; /* Adjust alignment as needed */
+}
+
+footer {
+    background-color: #333; /* Optional footer styling */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
 
 /* Body */
