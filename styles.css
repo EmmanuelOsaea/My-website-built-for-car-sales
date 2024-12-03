@@ -1,81 +1,34 @@
-/* Resetting margins and padding for all elements */
-* {
+
+
+
+    /* Global Rese*/ 
+  * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-     margin: 0; 
-     padding: 0;
 }
 
- div {
-padding: 0;
- margin: 0;
-}
-
-html, body {
-    scroll-behaviour: smooth;
-    width: 100%;
-     height: 100%;
-     margin: 0; 
-     padding: 0;
-     display: block;
-}
-
-main {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-
-.playwrite-pe {
-  font-family: "Playwrite PE", cursive;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: italic;
-  font-variation-settings:
-    "wdth" 100;
-}
-
+/* Body */
 body {
     font-family: "Open Sans", sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #FFFFFF;
-    padding-bottom:  50px;
     overflow-x: hidden;
-    width: 100%; 
-}
-
-.container {
     width: 100%;
-    max-width: 100%; /* Remove any restrictions */
-    margin: 0;
-    padding: 0;
 }
 
+/* Header */
 header {
     background-color: #673147;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
+    padding: 10px 0;
 }
 
-header h1 {
-    margin: 0;
-    font-family: "Playwrite PE", cursive;
-}
-
+/* Navigation */
 nav ul {
     list-style: none;
-    padding: 0;
     display: flex;
     justify-content: center;
-    margin: 0;
 }
 
 nav ul li {
@@ -87,154 +40,60 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    padding: 0;
-    margin: 0;
-    width: 100%;
+/* Main Section */
+main {
+    padding: 20px;
+    background-color: #f0f0f0;
 }
 
-
-@media (max-width: 768px) {
+/* Car List */
 .car-list {
-    flex-direction: column;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    background-color: #FFD700;
-    padding: 10px; 
+    justify-content: center;
     gap: 15px;
-    }
+}
 
 .car-item {
-    border: 1px solid #000;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 10px;
-    width: 90%;
-    max-width: 200px;
     text-align: center;
- }
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
 
 .car-item img {
-    max-width: 300px;
     width: 100%;
     height: auto;
     border-radius: 5px;
-    object-fit: cover;
-    display: block;
 }
 
-.car-item button {
-    background-color: #5c636a; 
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-}
-
-section {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-    
+/* Contact Section */
 section#contact {
-            padding: 20px;
-            background-color: #f4f4f4;
-            order: 1; /* Moves the contact section above the footer */
-       margin-bottom: 70px;
-       gap: 15px;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-section#contact form {
-    display: flex;
-    flex-direction: column;
-}
-
-section#contact input {
-    margin-bottom: 15px; /* Adjust the value as needed for spacing */
-}
-
-section#contact textarea {
-    margin-bottom: 15px; /* Adjust if you want space below the textarea too */
-}
-
-
-/* Style input and textarea fields */
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 90%; /* Reduce width to 90% of the parent container */
-    max-width: 500px; /* Add a maximum width for large screens */
-    padding: 10px; /* Add internal spacing for better appearance */
-    margin: 10px auto; /* Center align and add spacing between fields */
-    display: block; /* Ensure they stay on separate lines */
-    border: 1px solid #ccc; /* Subtle border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Set a readable font size */
-    box-sizing: border-box; /* Ensure padding is included in the width */
-}
-
-/* Add focus effect */
-form input[type="text"]:focus,
-form input[type="email"]:focus,
-form textarea:focus {
-    border-color: #007bff; /* Highlight border when focused */
-    outline: none; /* Remove default outline */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow effect */
-}
-
-    
-
-
-section#contact label { /* Included to style the labels */
-  font-size: 16px;
-  color: #333;
-  display: block;
-  font-weight: bold;
-  margin: 5px; /* Ensure no extra margin is applied */
-  padding:  0; /* No margin */
-}
-
-
-/* Add this to your styles.css */
-#contact-button {
-    background-color:  #5c636a; /* Green background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 15px 32px; /* Some padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make the button inline-block */
-    font-size: 16px; /* Increase font size */
-    margin: 20px auto; /* Some margin */
-    cursor: pointer; /* Pointer/hand icon */
-    border-radius: 12px; /* Rounded corners */
-    width: 150px; 
-    max-width: 90%;
-    justify-content: center;
-}
-
-/* Add a hover effect */
-button:hover {
-    background-color: #45a049; /* Darker green */
-}
-
+/* Footer */
 footer {
     background-color: #673147;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
-    position: fixed;
+    padding: 10px 0;
     width: 100%;
-    bottom: 0;
-    order: 2;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .car-list {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .car-item {
+        width: 90%;
+        max-width: 300px;
+    }
+}
   }
