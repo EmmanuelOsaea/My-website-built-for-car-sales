@@ -20,13 +20,6 @@ html, body {
     justify-content: center; /* Adjust alignment as needed */
 }
 
-footer {
-    background-color: #333; /* Optional footer styling */
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
 
 /* Body */
 body {
