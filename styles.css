@@ -140,6 +140,12 @@ section {
    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
+section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+    
 section#contact {
             padding: 20px;
             background-color: #f4f4f4;
