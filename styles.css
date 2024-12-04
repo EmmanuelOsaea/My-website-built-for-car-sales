@@ -10,13 +10,15 @@ html, body {
     padding: 0;
     height: 100%; /* Ensures the body fills the viewport */
     display: flex;
-    }
+    flex-direction: column;
+}
 
 .container {
-   min-height: 100%;
+   flex: 1;
+  min-height: 100%;
    display: flex; /* Optional: To center content */
     flex-direction: column;
-    justify-content: center; /* Adjust alignment as needed */
+    justify-content: space-between; /* Adjust alignment as needed */
 }
 
 
@@ -120,14 +122,14 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .car-list {
-        flex-direction: column;
+    .carousel-images {
+        flex-direction: row;
         align-items: center;
         padding: 10px;
     }
 
     .car-item {
-        width: 90%;
+        width: 100%;
         max-width: 300px;
     }
 }
