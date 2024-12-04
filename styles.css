@@ -59,29 +59,50 @@ main {
     background-color: #f0f0f0;
     }
 
-/* Car List */
-.car-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.car-item {
-    text-align: center;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.car-item img {
+.carousel {
+    position: relative;
     width: 100%;
-    height: auto;
-    border-radius: 5px;
-    display: block;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
 }
 
+.carousel .car-item {
+    flex-shrink: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.carousel .car-item img {
+    width: 100%;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+  
 /* Contact Section */
 section#contact {
     padding: 20px;
