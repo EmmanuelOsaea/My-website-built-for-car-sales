@@ -77,10 +77,8 @@ main {
 }
 
 .carousel .car-item {
-    flex-shrink: 0;
-    width: 100%;
-    display: inline-block;
-}
+    margin-right: 10px;
+ }
 
 .carousel .car-item img {
     width: 100%;
