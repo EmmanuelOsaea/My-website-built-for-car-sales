@@ -77,21 +77,27 @@ main {
 }
 
 .carousel .car-item {
-    margin-right: 10px;
- }
-
+   flex: 0 0 100%; 
+    display: flex
+    justify-content: center;
+     align-items: center;
+     overflow: hidden;
+}
 .carousel .car-item img {
     width: 100%;
 }
 
 .carousel-images {
-    flex-direction: row;
-    align-items: center;
+    display: flex;
+    flex-wrap: no-wrap;
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-images img {
     margin-right: 10px; /* Adds space between images */
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
 }
   
 button {
