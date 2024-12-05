@@ -126,8 +126,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    width: 100%;
-}
+    }
 
 /* Media Queries */
 @media (max-width: 768px) {
