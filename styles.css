@@ -123,8 +123,9 @@ button.next {
   
 /* Contact Section */
 section#contact {
-    padding: 20px;
+    padding: 40px;
     background-color: #f4f4f4;
+     min-height: 300px;
 }
 
 /* Footer */
