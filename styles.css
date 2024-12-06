@@ -75,10 +75,10 @@ main {
     border: 2px solid #ddd;
 }
 
-
-.carousel .carousel-images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.carousel-images {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
 }
 
 .carousel .carousel-images img {
