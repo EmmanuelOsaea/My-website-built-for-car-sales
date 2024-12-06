@@ -1,7 +1,9 @@
+// Show car details
 function showDetails(carModel, price) {
     alert(`Model: ${carModel}\nPrice: ${price}`);
 }
 
+// Form submission handling
 document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault();
     const name = document.getElementById('name').value;
@@ -15,18 +17,31 @@ document.querySelector('form').addEventListener('submit', (e) => {
     }
 });
 
-let index = 0;
-
+// Carousel functionality
 const images = document.querySelector('.carousel-images');
-const items = document.querySelectorAll('.car-item');
-const totalItems = items.length;
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
 
-document.querySelector('.prev').addEventListener('click', () => {
-    index = (index > 0) ? index - 1 : totalItems - 1;
-    images.style.transform = `translateX(-${index * 100}%)`;
+let currentIndex = 0;
+const totalImages = images.children.length;
+
+function updateCarousel() {
+    const offset = currentIndex * -100; // Calculate the horizontal shift
+    images.style.transform = `translateX(${offset}%)`;
+}
+
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % totalImages; // Move to the next image
+    updateCarousel();
 });
 
-document.querySelector('.next').addEventListener('click', () => {
-    index = (index < totalItems - 1) ? index + 1 : 0;
-    images.style.transform = `translateX(-${index * 100}%)`;
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + totalImages) % totalImages; // Move to the previous image
+    updateCarousel();
 });
+
+// Optional: Auto-swipe every 3 seconds
+setInterval(() => {
+    currentIndex = (currentIndex + 1) % totalImages;
+    updateCarousel();
+}, 3000);
