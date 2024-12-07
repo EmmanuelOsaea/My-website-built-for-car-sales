@@ -76,6 +76,7 @@ main {
    margin: auto;
     overflow: hidden;
     border: 2px solid #ddd;
+    margin-bottom: 50px;
 }
 
 .carousel-images {
