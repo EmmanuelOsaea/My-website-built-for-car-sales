@@ -62,8 +62,10 @@ main {
     }
 
 .car-item {
-    width: 100%;
-    max-width: 300px; /* Ensures items don't grow too large */
+    flex: 0 0 100%; /* Each item fills the carousel width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel {
@@ -79,7 +81,8 @@ main {
   display: flex;
   flex-wrap: nowrap;
   transition: transform 0.5s ease-in-out; /* Smooth transition */
-}
+  width: calc(100% * 3); /* Width = 100% * total number of images */
+}       
 
 .carousel .carousel-images img {
     flex: 0 0 100%; /* Adds space between images */
