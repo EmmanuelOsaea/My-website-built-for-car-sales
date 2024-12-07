@@ -84,7 +84,7 @@ main {
   width: calc(100% * 3); /* Width = 100% * total number of images */
 }       
 
-.carousel .carousel-images img {
+.carousel , .carousel-images img {
     flex: 0 0 100%; /* Adds space between images */
     width: 100px;
     object-fit: cover;
