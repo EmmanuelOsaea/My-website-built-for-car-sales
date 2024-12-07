@@ -88,6 +88,26 @@ main {
      max-height: 300px;
      object-fit: cover;
      }
+
+form input, form textarea {
+    width: 100%; /* Make all inputs and textarea take up full width of their container */
+    padding: 10px; /* Add consistent padding */
+    margin-bottom: 15px; /* Add spacing between fields */
+    border: 1px solid #ccc; /* Consistent border */
+    border-radius: 5px; /* Optional: For rounded corners */
+    font-size: 16px; /* Match the font size */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+form textarea {
+    resize: vertical; /* Allow resizing only vertically */
+    height: 100px; /* Set a reasonable default height */
+}
+
+
+
+
+
   
 button {
     position: absolute;
