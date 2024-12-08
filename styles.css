@@ -167,7 +167,7 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .carousel-images {
+   .container, .carousel-images {
         flex-direction: row;
         align-items: center;
         padding: 10px;
