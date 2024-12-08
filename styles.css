@@ -71,12 +71,17 @@ main {
 .carousel {
     position: relative;
     width: 90%;
-    max-width: 900px;
-   height: 400px;
+    max-width: 600px;
+   height: 300px;
    margin: auto;
     overflow: hidden;
     border: 2px solid #ddd;
     margin-bottom: 50px;
+}
+
+.carousel .car-item {
+    flex: 0 0 100%; /* Makes one image visible at a time */
+    text-align: center; /* Center text like prices */
 }
 
 .carousel-images {
@@ -92,6 +97,12 @@ main {
      max-height: 300px;
      object-fit: cover;
      }
+
+carousel .car-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
 
 form input, form textarea {
     width: 100%; /* Make all inputs and textarea take up full width of their container */
