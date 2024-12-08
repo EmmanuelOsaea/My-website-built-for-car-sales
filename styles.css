@@ -82,7 +82,9 @@ main {
 .carousel-images {
   display: flex;
   transition: transform 0.5s ease-in-out; /* Smooth transition */
-  }       
+  align-items: center;
+  justify-content: center;
+}       
 
 .carousel-images img {
     width: 100%;
