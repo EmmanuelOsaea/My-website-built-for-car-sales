@@ -132,7 +132,8 @@ form textarea {
     resize: vertical; /* Allow resizing only vertically */
     height: 100px; /* Set a reasonable default height */
  } 
-form button {
+
+button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -163,7 +164,7 @@ section#contact {
 
 #contact-button {
   align self: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 
