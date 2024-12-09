@@ -45,3 +45,11 @@ setInterval(() => {
     currentIndex = (currentIndex + 1) % totalImages;
     updateCarousel();
 }, 5000);
+
+$('.carousel').slick({
+  slidesToShow: 6, // Display 6 slides at once
+  slidesToScroll: 1, // Scroll 1 slide at a time
+  infinite: true, // Keeps scrolling infinitely
+  autoplay: true, // Optional: Autoplay the slides
+  autoplaySpeed: 5000, // Change slide every 2 seconds
+});
