@@ -131,9 +131,8 @@ form input, form textarea {
 form textarea {
     resize: vertical; /* Allow resizing only vertically */
     height: 100px; /* Set a reasonable default height */
-}
-
-form button {
+ } 
+Form button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -159,8 +158,12 @@ section#contact {
     padding: 40px;
     background-color: #f4f4f4;
      min-height: 300px;
-     margin-top: 50px;}
+     margin-top: 50px;
+}
 
+#contact-button {
+  align self: center;
+  }
 
 
 /* Footer */
