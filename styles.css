@@ -133,12 +133,7 @@ form textarea {
     height: 100px; /* Set a reasonable default height */
 }
 
-
-
-
-
-  
-button {
+form button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
