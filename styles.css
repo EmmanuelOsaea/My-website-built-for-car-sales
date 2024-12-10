@@ -89,6 +89,12 @@ main {
     margin-bottom: 50px;
 }
 
+.carousel-images, .carousel-images img {
+    max-width: 100%;
+    width: 100%; /* Ensure it fits the container */
+    height: auto;
+}
+
 .carousel .car-item {
     flex: 0 0 100%; /* Makes one image visible at a time */
     text-align: center; /* Center text like prices */
@@ -175,7 +181,7 @@ section#contact {
     cursor: pointer;
     border-radius: 5px;
 }
-}
+
 
 
 /* Footer */
