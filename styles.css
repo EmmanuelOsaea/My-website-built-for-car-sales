@@ -167,7 +167,14 @@ section#contact {
 
 #contact-button {
   align self: center;
-  margin-top: 90px;
+  margin-top: 0;
+  padding: 10px 20px;
+  background-color: #673147;
+  color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 }
 
 
