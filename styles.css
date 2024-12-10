@@ -102,7 +102,7 @@ main {
   transition: transform 5s ease-in-out; /* Smooth transition */
   align-items: center;
   justify-content: center;
-  
+  overflow: hidden;
   }       
 
 .carousel-images img {
