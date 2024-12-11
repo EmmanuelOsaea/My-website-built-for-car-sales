@@ -174,7 +174,7 @@ section#contact {
 }
 
 #contact-button {
-  align self: center;
+  align-self: center;
   margin-top: 0;
   padding: 10px 20px;
   background-color: #673147;
