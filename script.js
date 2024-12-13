@@ -17,6 +17,8 @@ document.querySelector('form').addEventListener('submit', (e) => {
     }
 });
 
+
+document.addEventListener('DOMContentLoaded', () => {
 // Carousel functionality
 const images = document.querySelector('.carousel-images');
 const prevButton = document.querySelector('.prev');
