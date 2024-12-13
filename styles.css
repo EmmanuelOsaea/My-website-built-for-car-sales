@@ -178,7 +178,8 @@ button.next {
 /* Contact Section */
 .contact-section {
     padding: 40px;
-    background-color: #f4f4f4;
+  position: static;
+  background-color: #f4f4f4;
     box-sizing: border-box;
      min-height: 300px;
      margin: 0;
