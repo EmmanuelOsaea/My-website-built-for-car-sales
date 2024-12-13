@@ -93,8 +93,11 @@ main {
     margin-bottom: 50px;
 }
 
-.carousel-container {
+.my-carousel-container {
     position: relative; /* Ensure this is set on the carousel's parent container */
+     width: 100%; 
+     height: 300px;
+     overflow: hidden;
 }
 
   
