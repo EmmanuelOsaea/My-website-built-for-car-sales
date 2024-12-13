@@ -120,7 +120,8 @@ main {
     height: auto;
      max-height: 300px;
      object-fit: cover;
-     }
+     flex-shrink: 0;
+}
 
 carousel .car-item p {
     margin-top: 10px;
