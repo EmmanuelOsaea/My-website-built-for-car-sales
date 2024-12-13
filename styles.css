@@ -22,7 +22,9 @@ html, body {
      padding: 0; 
      height: auto;
       overflow: visible;
-}
+     align-items: stretch;
+     justify-content: flex-start;
+} 
 
 
 /* Body */
