@@ -93,6 +93,11 @@ main {
     margin-bottom: 50px;
 }
 
+.carousel-container {
+    position: relative; /* Ensure this is set on the carousel's parent container */
+}
+
+  
 .carousel-images, .carousel-images img {
     max-width: 100%;
     width: 100%; /* Ensure it fits the container */
