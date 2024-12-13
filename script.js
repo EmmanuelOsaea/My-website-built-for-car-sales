@@ -46,3 +46,17 @@ setInterval(() => {
     updateCarousel();
 }, 5000);
 
+let currentIndex = 0;
+
+function moveSlide(step) {
+  const slides = document.querySelectorAll('.carousel-item');
+  const totalSlides = slides.length;
+
+  currentIndex = (currentIndex + step + totalSlides) % totalSlides;
+  const carousel = document.querySelector('.carousel');
+  carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+setInterval(() => {
+  moveSlide(1); // Automatically move to the next slide every 5 seconds
+}, 5000);
