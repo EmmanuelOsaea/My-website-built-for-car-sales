@@ -172,6 +172,7 @@ section#contact {
     box-sizing: border-box;
      min-height: 300px;
      margin: 0;
+     margin-bottom: 80px;
      padding: 0;
      width: 100vw;
      display: flex; 
