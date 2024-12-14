@@ -21,6 +21,7 @@ html, body {
      margin: 0 auto;
      padding: 0; 
      height: auto;
+      width: 100%;
       overflow: visible;
      align-items: stretch;
      justify-content: flex-start;
@@ -179,13 +180,13 @@ button.next {
   
 /* Contact Section */
 .contact-section {
-    padding: 40px;
-  position: static;
+    padding-top: 50px;
+  position: relative;
   background-color: #f4f4f4;
     box-sizing: border-box;
      min-height: 300px;
      margin: 0;
-     margin-top: 150px;
+     margin-top: 200px;
      padding: 0;
      width: 100vw;
      display: flex; 
@@ -194,6 +195,11 @@ button.next {
    justify-content: flex-start;
     max-width: 100%;
 }
+
+#inventory {
+    margin-bottom: 50px; /* Add space below the inventory */
+}
+
 
 #form button {
   align-self: center;
