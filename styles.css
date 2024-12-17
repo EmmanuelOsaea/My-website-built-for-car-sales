@@ -189,7 +189,7 @@ button.next {
     box-sizing: border-box;
      min-height: 300px;
      margin: 0;
-     margin-top: 200px;
+     margin-top: 20px;
      padding: 0;
      width: 100vw;
      display: flex; 
