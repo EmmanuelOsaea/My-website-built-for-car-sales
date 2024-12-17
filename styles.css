@@ -196,6 +196,7 @@ button.next {
     align-items: center;
    justify-content: flex-start;
     max-width: 100%;
+    text-align: centre;
 }
 
 #inventory {
