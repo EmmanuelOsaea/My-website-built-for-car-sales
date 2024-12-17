@@ -24,9 +24,12 @@ html, body {
      height: auto;
       width: 100%;
       overflow: visible;
-     align-items: stretch;
-     justify-content: space-between;
-} 
+      min-height: 100vh;
+      align-items: stretch;
+     justify-content: space-between; 
+      box-sizing: border-box;
+       padding: 0 20px;
+    } 
 
 
 /* Body */
