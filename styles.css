@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-  }
+     }
 
 html, body {
     margin: 0;
@@ -190,7 +189,7 @@ button.next {
      min-height: 300px;
      margin: 0;
      margin-top: 20px;
-     padding: 0;
+     padding: 20px;
      width: 100vw;
      display: flex; 
     flex-direction: column; 
