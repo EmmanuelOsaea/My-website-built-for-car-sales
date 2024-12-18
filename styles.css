@@ -210,7 +210,13 @@ button.next {
   margin: 20px auto; /* Center form with spacing */
 }
 
+.section, header, .container {
+    width: 100%; /* Spans full screen */
+    margin: 0 auto; /* Removes extra spacing */
+    padding: 0;
+}
 
+  
 #inventory {
     margin-bottom: 50px; /* Add space below the inventory */
 }
