@@ -77,6 +77,19 @@ nav ul li a {
     text-decoration: none;
 }
 
+h2, p {
+    font-size: 2rem; /* Adjust the size of the text */
+    font-weight: bold; /* Makes the text bold */
+    color: #333; /* Text color */
+    text-align: center; /* Centers the text */
+    margin: 20px 0; /* Adds vertical spacing (top and bottom) */
+    line-height: 1.5; /* Adjusts spacing between lines of text */
+    padding: 0; /* Adds or removes inner spacing */
+    align-items: center;
+   }
+
+
+
 /* Main Section */
 
 main {
