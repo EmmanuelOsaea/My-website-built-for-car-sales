@@ -100,7 +100,7 @@ main {
    margin: auto;
     overflow: hidden;
     border: 2px solid #ddd;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 .my-carousel-container {
