@@ -79,7 +79,7 @@ nav ul li a {
 
 h2, p {
     font-size: 2rem; /* Adjust the size of the text */
-    font-weight: bold; /* Makes the text bold */
+    font-weight: normal; /* Makes the text bold */
     color: #333; /* Text color */
     text-align: center; /* Centers the text */
     margin: 20px 0; /* Adds vertical spacing (top and bottom) */
