@@ -121,16 +121,10 @@ main {
 
 .my-carousel-container {
     position: relative; /* Ensure this is set on the carousel's parent container */
-     width: 100%; 
+     width: 600px; 
      height: 300px;
      overflow: hidden;
-}
-
-  
-.carousel-images, .carousel-images img {
-    max-width: 100%;
-    width: 100%; /* Ensure it fits the container */
-    height: auto;
+     padding-top: 20px;
 }
 
 .carousel .car-item {
@@ -154,8 +148,7 @@ main {
     height: auto;
      max-height: 300px;
      object-fit: cover;
-     flex-shrink: 0;
-}
+   }
 
 carousel .car-item p {
     margin-top: 10px;
