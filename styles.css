@@ -84,7 +84,7 @@ h2, p {
     text-align: center; /* Centers the text */
     margin: 20px 0; /* Adds vertical spacing (top and bottom) */
     line-height: 1.5; /* Adjusts spacing between lines of text */
-    padding: 0; /* Adds or removes inner spacing */
+    padding: 10px 0; /* Adds or removes inner spacing */
     align-items: center;
    }
 
@@ -178,7 +178,7 @@ form textarea {
     height: 100px; /* Set a reasonable default height */
  } 
 
-button {
+.carousel-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -191,13 +191,18 @@ button {
     margin-top: 50px;
 }
 
-button.prev {
-    left: 10px;
+.carousel-btn.prev {
+    left: 10px; /* Position near the left edge */
 }
 
-button.next {
-    right: 10px;
-}
+.carousel-btn.next {
+    right: 10px; /* Position near the right edge */
+}    
+
+  
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Optional hover effect */
+}     
   
 /* Contact Section */
 .contact-section {
