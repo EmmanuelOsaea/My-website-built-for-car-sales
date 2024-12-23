@@ -15,50 +15,39 @@ document.querySelector('form').addEventListener('submit', (e) => {
     } else {
         alert('Please fill out all fields.');
     }
-});
-
+}};
 
 document.addEventListener('DOMContentLoaded', () => {
-// Carousel functionality
-const images = document.querySelector('.carousel-images');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+  const images = document.querySelector('.carousel-images');
+  const prevButton = document.querySelector('.prev');
+  const nextButton = document.querySelector('.next');
 
-let currentIndex = 0;
-const totalImages = images.children.length;
+  let currentIndex = 0;
+  const totalImages = document.querySelectorAll('.car-item').length;
 
-function updateCarousel() {
-    const offset = currentIndex * -100; // Calculate the horizontal shift
+  function updateCarousel() {
+    const offset = currentIndex * -100;
     images.style.transform = `translateX(${offset}%)`;
-}
+  }
 
-nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % totalImages; // Move to the next image
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
     updateCarousel();
-});
+  });
 
-prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + totalImages) % totalImages; // Move to the previous image
-    updateCarousel();
-});
-
-// Optional: Auto-swipe every 5 seconds
-setInterval(() => {
+  nextButton.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % totalImages;
     updateCarousel();
-}, 5000);
+  });
 
-let currentIndex = 0;
+  // Auto-slide every 5 seconds
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % totalImages;
+    updateCarousel();
+  }, 5000);
+});
 
-function moveSlide(step) {
-  const slides = document.querySelectorAll('.carousel-item');
-  const totalSlides = slides.length;
-
-  currentIndex = (currentIndex + step + totalSlides) % totalSlides;
-  const carousel = document.querySelector('.carousel');
-  carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+// Show car details
+function showDetails(carModel, price) {
+  alert(`Model: ${carModel}\nPrice: ${price}`);
 }
-
-setInterval(() => {
-  moveSlide(1); // Automatically move to the next slide every 5 seconds
-}, 5000);
