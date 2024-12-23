@@ -38,6 +38,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
 
 /* Header */
@@ -202,7 +205,7 @@ form textarea {
 }     
   
 /* Contact Section */
-.contact-section {
+.contact {
   padding: 5px 0;
   position: relative;
   background-color: #f4f4f4;
@@ -217,10 +220,15 @@ form textarea {
 }
 
 /* Contact form adjustments */
-.contact-form {
+form {
   width: 100%; /* Spread contact form across width */
-  margin: 20px auto; /* Center form with spacing */
-}
+  margin: 0 auto; /* Center form with spacing */
+  padding: 0; 
+    display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between form elements */
+}  
+
 
 .section, header, .container {
     width: 100%; /* Spans full screen */
@@ -233,6 +241,10 @@ form textarea {
     margin-bottom: 50px; /* Add space below the inventory */
 }
 
+section {
+  margin: 0;
+  padding: 0;
+}
 
 #form-button {
   margin-top: 20px;
@@ -242,6 +254,8 @@ form textarea {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    align-self: center;
+    font-size: 14px;
 }
 
 
@@ -269,4 +283,11 @@ footer {
         max-width: 300px;
     }
 }
+  
+#contact {
+    padding: 15px; /* Add a bit of padding for better spacing */
+  }
+
+  form {
+    gap: 15px; /* Slightly increase space between elements */
   }
