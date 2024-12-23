@@ -127,7 +127,11 @@ main {
      padding-top: 20px;
 }
 
-.carousel .car-item {
+.my-carousel-container h2 {
+    margin-bottom: 20px; /* Moves the "Our Inventory" text down within the carousel */
+}
+
+ .carousel .car-item {
     flex: 0 0 100%; /* Makes one image visible at a time */
     text-align: center; /* Center text like prices */
 }
