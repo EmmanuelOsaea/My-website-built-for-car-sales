@@ -234,9 +234,8 @@ form textarea {
 }
 
 
-#form button {
-  align-self: center;
-  margin-top: 0;
+#form-button {
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #673147;
   color: white;
