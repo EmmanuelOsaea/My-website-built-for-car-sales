@@ -230,6 +230,19 @@ form {
 }  
 
 
+#contact, #google-form {
+    margin: 20px 0; /* Add space between sections */
+    padding: 20px;  /* Add padding inside each section */
+    background-color: #f9f9f9; /* Optional: Differentiate with a light background */
+    border-radius: 5px; /* Add rounded corners for a modern look */
+}
+
+#google-form iframe {
+    width: 100%;
+    max-width: 800px; /* Optional: Limit the width for large screens */
+    margin: 0 auto; /* Center the iframe */
+}
+  
 .section, header, .container {
     width: 100%; /* Spans full screen */
     margin: 0 auto; /* Removes extra spacing */
