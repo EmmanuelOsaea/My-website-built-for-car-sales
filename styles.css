@@ -54,9 +54,10 @@ header {
 }
 
 
-header h1, header h2, header p {
+header h1 {
     margin-bottom: 20px; /* Adds space below the text */
     padding-bottom: 0; /* Optional, ensures no extra padding below */
+    margin-top: 15px;
 }
 
 
