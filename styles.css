@@ -238,8 +238,9 @@ form {
 }
 
 #google-form iframe {
-    width: 100%;
-    max-width: 800px; /* Optional: Limit the width for large screens */
+   max-width: 100%;
+    height: 100%; 
+    border: none;
     margin: 0 auto; /* Center the iframe */
 }
   
