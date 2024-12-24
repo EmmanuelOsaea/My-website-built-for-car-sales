@@ -53,15 +53,11 @@ header {
     height: 100px;
 }
 
-header h1 {
-    margin: 0;
-    }
 
-header p {
- padding-bottom: 0; 
+header h1, header h2, header p {
+    margin-bottom: 20px; /* Adds space below the text */
+    padding-bottom: 0; /* Optional, ensures no extra padding below */
 }
-
-
 
 
 /* Navigation */
