@@ -297,7 +297,12 @@ footer {
         max-width: 300px;
     }
 }
-  
+
+#google-form iframe {
+        height: 800px; /* Adjust for mobile */
+    }
+}
+
 #contact {
     padding: 15px; /* Add a bit of padding for better spacing */
   }
