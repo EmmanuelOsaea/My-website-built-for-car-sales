@@ -88,6 +88,11 @@ h2, p {
     align-items: center;
    }
 
+#home {
+    margin-top: -20px; /* Moves the entire section up */
+}
+
+
 
 #home h2 {
     font-size: 2rem;
