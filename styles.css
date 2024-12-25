@@ -82,9 +82,9 @@ h2, p {
     font-weight: normal; /* Makes the text normal */
     color: #333; /* Text color */
     text-align: center; /* Centers the text */
-    margin: 20px 0; /* Adds vertical spacing (top and bottom) */
+    margin: 10px 0; /* Adds vertical spacing (top and bottom) */
     line-height: 1.5; /* Adjusts spacing between lines of text */
-    padding: 10px 0; /* Adds or removes inner spacing */
+    padding: 15px 0; /* Adds or removes inner spacing */
     align-items: center;
    }
 
