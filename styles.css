@@ -91,14 +91,14 @@ h2, p {
 
 #home h2 {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
     color: #333;
 }
 
 #home p {
     font-size: 2rem;
-    margin-top: -10px;
+    margin-top: 0;
     text-align: center;
     color: #666;
 }
