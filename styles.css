@@ -89,6 +89,19 @@ h2, p {
    }
 
 
+#home h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+#home p {
+    font-size: 1rem;
+    margin-top: 5px;
+    text-align: center;
+    color: #666;
+}
 
 /* Main Section */
 
