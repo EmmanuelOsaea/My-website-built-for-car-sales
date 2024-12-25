@@ -98,7 +98,7 @@ h2, p {
 
 #home p {
     font-size: 2rem;
-    margin-top: 10px;
+    margin-top: -10px;
     text-align: center;
     color: #666;
 }
