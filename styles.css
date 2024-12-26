@@ -143,13 +143,12 @@ main {
 }
 
 .my-carousel-container {
-    position: relative; /* Ensure this is set on the carousel's parent container */
-     width: 600px; 
-     height: 300px;
-     overflow: hidden;
-     padding-bottom: 10px;
-     margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Optional: full viewport height for centering */
 }
+
 
 .my-carousel-container h2 {
     margin-bottom: 20px; /* Moves the "Our Inventory" text down within the carousel */
