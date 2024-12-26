@@ -143,11 +143,18 @@ main {
 }
 
 .my-carousel-container {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Optional: full viewport height for centering */
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto; /* Centers the container horizontally */
+    overflow: hidden;
+    padding-bottom: 10px;
 }
+
+  
+  
+  
+  }
 
 
 .my-carousel-container h2 {
