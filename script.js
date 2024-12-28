@@ -38,28 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   nextButton.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % totalImages;
     updateCarousel();
-  });
-
-const carouselImages = document.querySelector('.carousel-images');
-let index = 0;
-
-function slideCarousel() {
-    index++;
-    if (index >= carouselImages.children.length) {
-        index = 0;
-    }
-    carouselImages.style.transform = `translateX(-${index * 100}%)`;
-}
-
-setInterval(slideCarousel, 3000); // Change slide every 3 seconds
-
-    
-  // Auto-slide every 5 seconds
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % totalImages;
-    updateCarousel();
-  }, 5000);
-});
+  }, 5000); //This autoslides every 5seconds
 
 // Show car details
 function showDetails(carModel, price) {
