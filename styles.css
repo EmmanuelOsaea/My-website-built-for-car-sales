@@ -342,7 +342,7 @@ footer {
   }
 
 .carousel {
-        height: 200px; /* Smaller height for mobile */
+        height: 300px; /* Smaller height for mobile */
     }
 
     .carousel-images img {
