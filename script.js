@@ -40,17 +40,19 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCarousel();
   });
 
+const carouselImages = document.querySelector('.carousel-images');
+let index = 0;
 
-document.addEventListener( 'DOMContentLoaded', function () {
-  new Splide( '#card-carousel', {
-		perPage    : 2,
-		breakpoints: {
-			640: {
-				perPage: 1,
-			},
-		},
-  } ).mount();
-} );
+function slideCarousel() {
+    index++;
+    if (index >= carouselImages.children.length) {
+        index = 0;
+    }
+    carouselImages.style.transform = `translateX(-${index * 100}%)`;
+}
+
+setInterval(slideCarousel, 3000); // Change slide every 3 seconds
+
     
   // Auto-slide every 5 seconds
   setInterval(() => {
