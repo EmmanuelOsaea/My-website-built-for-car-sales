@@ -27,10 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateCarousel() {
     const offset = currentIndex * -100;
-    images.style.transform = `translateX(${offset}%)`;
+     console.log('Offset:', offset);
+     images.style.transform = `translateX(${offset}%)`;
   }
 
-  prevButton.addEventListener('click', () => {
+ /* prevButton.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + totalImages) % totalImages;
     updateCarousel();
   });
@@ -38,9 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
   nextButton.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % totalImages;
     updateCarousel();
-  }, 5000); //This autoslides every 5seconds
+  }, 5000); */ //This autoslides every 5seconds 
 
-// Show car details
+
+    
+    
+    // Show car details
 function showDetails(carModel, price) {
   alert(`Model: ${carModel}\nPrice: ${price}`);
 }
