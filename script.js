@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
      images.style.transform = `translateX(${offset}%)`;
   }
 
+    setInterval(() => {
+    currentIndex = (currentIndex + 1) % totalImages;
+    updateCarousel();
+}, 5000);
  /* prevButton.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + totalImages) % totalImages;
     updateCarousel();
